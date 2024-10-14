@@ -1,5 +1,6 @@
 package com.example.stock_management.domain.product;
 
+import com.example.stock_management.domain.bin.Bin;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -23,6 +24,10 @@ public class Product {
     private String name;
 
     private BigDecimal price;
+
+    private String description;
+
+    private Bin bin;
 
     @Column(unique = true)
     private String sku;
