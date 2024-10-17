@@ -1,6 +1,9 @@
-package com.example.stock_management.controller;
+package com.example.stock_management.presentation.product;
 
-import com.example.stock_management.domain.product.*;
+import com.example.stock_management.application.dto.product.ProductPresentationDTO;
+import com.example.stock_management.application.dto.product.ProductSummaryDTO;
+import com.example.stock_management.application.dto.product.RegisterProductDTO;
+import com.example.stock_management.application.service.ProductService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

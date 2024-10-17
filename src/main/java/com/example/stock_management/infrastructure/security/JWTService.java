@@ -1,4 +1,4 @@
-package com.example.stock_management.infra.security;
+package com.example.stock_management.infrastructure.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;

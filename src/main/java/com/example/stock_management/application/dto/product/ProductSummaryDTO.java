@@ -1,4 +1,6 @@
-package com.example.stock_management.domain.product;
+package com.example.stock_management.application.dto.product;
+
+import com.example.stock_management.domain.product.Product;
 
 import java.math.BigDecimal;
 

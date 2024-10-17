@@ -1,6 +1,5 @@
-package com.example.stock_management.infra.exception;
+package com.example.stock_management.infrastructure.exception;
 
-import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

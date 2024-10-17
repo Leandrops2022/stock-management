@@ -1,5 +1,8 @@
-package com.example.stock_management.domain.product;
+package com.example.stock_management.application.service;
 
+import com.example.stock_management.domain.product.Product;
+import com.example.stock_management.domain.product.ProductRepository;
+import com.example.stock_management.application.dto.product.RegisterProductDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

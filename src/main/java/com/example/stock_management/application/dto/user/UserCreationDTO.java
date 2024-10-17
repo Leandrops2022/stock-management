@@ -1,7 +1,6 @@
-package com.example.stock_management.domain.user;
+package com.example.stock_management.application.dto.user;
 
 import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.Size;
 
 public record UserCreationDTO(

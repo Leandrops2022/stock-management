@@ -1,8 +1,8 @@
-package com.example.stock_management.infra.security;
+package com.example.stock_management.infrastructure.security;
 
-import com.example.stock_management.domain.user.NewUserDTO;
+import com.example.stock_management.application.dto.user.NewUserDTO;
 import com.example.stock_management.domain.user.User;
-import com.example.stock_management.domain.user.UserCreationDTO;
+import com.example.stock_management.application.dto.user.UserCreationDTO;
 import com.example.stock_management.domain.user.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,4 +1,4 @@
-package com.example.stock_management.infra.security;
+package com.example.stock_management.infrastructure.security;
 
 import jakarta.validation.constraints.NotBlank;
 

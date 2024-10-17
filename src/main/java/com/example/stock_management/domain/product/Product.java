@@ -1,5 +1,6 @@
 package com.example.stock_management.domain.product;
 
+import com.example.stock_management.application.dto.product.RegisterProductDTO;
 import com.example.stock_management.domain.bin.Bin;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

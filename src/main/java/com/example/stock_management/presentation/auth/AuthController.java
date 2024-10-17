@@ -1,12 +1,12 @@
-package com.example.stock_management.controller;
+package com.example.stock_management.presentation.auth;
 
-import com.example.stock_management.domain.user.NewUserDTO;
+import com.example.stock_management.application.dto.user.NewUserDTO;
 import com.example.stock_management.domain.user.User;
-import com.example.stock_management.domain.user.UserCreationDTO;
-import com.example.stock_management.infra.security.AuthService;
-import com.example.stock_management.infra.security.JWTService;
-import com.example.stock_management.infra.security.JwtDTO;
-import com.example.stock_management.infra.security.LoginCredentialsDTO;
+import com.example.stock_management.application.dto.user.UserCreationDTO;
+import com.example.stock_management.infrastructure.security.AuthService;
+import com.example.stock_management.infrastructure.security.JWTService;
+import com.example.stock_management.infrastructure.security.JwtDTO;
+import com.example.stock_management.infrastructure.security.LoginCredentialsDTO;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

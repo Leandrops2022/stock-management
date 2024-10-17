@@ -1,4 +1,4 @@
-package com.example.stock_management.infra.exception;
+package com.example.stock_management.infrastructure.exception;
 
 import java.util.LinkedHashMap;
 

@@ -1,4 +1,4 @@
-package com.example.stock_management.controller;
+package com.example.stock_management.presentation.user;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

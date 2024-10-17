@@ -1,4 +1,4 @@
-package com.example.stock_management.infra.security;
+package com.example.stock_management.infrastructure.security;
 
 import com.example.stock_management.domain.user.UserRepository;
 import jakarta.servlet.FilterChain;

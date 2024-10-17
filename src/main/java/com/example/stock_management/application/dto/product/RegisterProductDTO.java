@@ -1,4 +1,4 @@
-package com.example.stock_management.domain.product;
+package com.example.stock_management.application.dto.product;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
